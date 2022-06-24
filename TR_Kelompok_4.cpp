@@ -6,12 +6,12 @@ using namespace std;
 #define FPS 120
 #define TO_RADIANS 3.14/180.0
 
-//  Anggota Kelompok X
-//  Nama (NIM)
-//  Nama (NIM)
-//  Nama (NIM)
-//  Nama (NIM)
-//  Nama (NIM)
+//  Anggota Kelompok 4
+//  James Gunawan Jingga (672020114)
+//  Finda Affandi (672020113)
+//  Rifaldo Ardhana Saroinsong (672020296)
+//  Wahyu Aji Santoso (672020320)
+//  Ondihon Munthe (672020270)
 
 const int width = 1280;
 const int height = 720;
@@ -5423,7 +5423,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(width, height);
-    glutCreateWindow("TR GRAFKOM KELOMPOK X");
+    glutCreateWindow("TR GRAFKOM KELOMPOK 4");
 
     init();
     glutDisplayFunc(display);
